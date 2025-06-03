@@ -1,3 +1,8 @@
 #EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
+https://prod-fastly-eu-central-1-ak.akamaized.live/ALWAN-1-HD/playlist.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
 https://prod-fastly-eu-central-1-ak.akamaized.live/ALWAN-1-HD/playlist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://prod-fastly-eu-central-1-ak.akamaized.live/ALWAN-1-HD/playlist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
