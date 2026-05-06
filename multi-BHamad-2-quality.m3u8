@@ -1,5 +1,18 @@
 #EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-http://cdnvine.com:8080/bn24k/tracks-v1a1/mono.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-http://cdnvine.com:8080/bn2hd/tracks-v1a1/mono.m3u8
+#EXT-X-VERSION:3
+
+# جودة 1080p
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080,NAME="1080p"
+http://het000.4rouwanda-shop.store/live/69854211/index.m3u8
+
+# جودة 720p
+#EXT-X-STREAM-INF:BANDWIDTH=2800000,RESOLUTION=1280x720,NAME="720p"
+http://het000.4rouwanda-shop.store/live/69854211/index.m3u8
+
+# جودة 360p
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,NAME="360p"
+http://het000.4rouwanda-shop.store/live/10011244/index.m3u8
+
+# جودة 244p
+#EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=432x244,NAME="244p"
+http://het000.4rouwanda-shop.store/live/4798998070/index.m3u8
